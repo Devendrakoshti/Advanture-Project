@@ -1,0 +1,56 @@
+@media(max-width:500px) {
+    .main {
+        height: 520px;
+    }
+    .main .adv ul {
+        display: none;
+    }
+    .main .adv .menu {
+        display: block;
+    }
+    .main .thr {
+        margin: 80px 0px 0px 15px;
+        height: 175px;
+        width: 420px;
+    }
+    .main .thr .joy {
+        height: 115px;
+        width: 360px;
+        top: 100px;
+        left: 90px;
+    }
+    .main .thr .joy p {
+        font-size: 28px;
+    }
+    .main .thr .joy div {
+        font-size: 38px;
+    }
+    .some {
+        padding: 25px 0;
+    }
+    .some .dell {
+        grid-template-columns: 1fr;
+        padding: 0px 65px;
+    }
+    .some .dell .dev {
+        margin-left: -90px;
+        margin-right: -80px;
+    }
+    .some .dell .dolor {
+        margin: 20px 0;
+    }
+    .tour {
+        height: 570px;
+    }
+    .tour .hiki {
+        grid-template-columns: 1.5fr 1.5fr;
+        /* gap: 50px; */
+    }
+    .tour .hiki .air {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .tour .hiki .air p {
+        font-size: 10px;
+    }
+}
